@@ -78,10 +78,10 @@ An Alternative view on the data is to review number of succesful campaigns to se
 
 <div style="display:flex">
      <div style="flex:1;padding-right:10px;">
-          <img src="images/Bar-Plot-Term-Deposit-by-Education-Deposit-Yes.jpeg" width="600"/>
+          <img src="images/Bar-Plot-Term-Deposit-by-Education-Deposit-Yes.jpeg" width="300"/>
      </div>
      <div style="flex:1;padding-left:10px;">
-          <img src="images/Bar-Plot-Term-Deposit-by-Job-Deposit-Yes.jpeg" width="600"/>
+          <img src="images/Bar-Plot-Term-Deposit-by-Job-Deposit-Yes.jpeg" width="300"/>
      </div>
 </div>
 
