@@ -50,6 +50,14 @@ Diagram above shows an example of a classification use case where the algorithms
 
 Source - https://www.datacamp.com/blog/classification-machine-learning
 
+### Business Objective Definition
+
+This dataset was provided for a Portugese banking institution and is a collection of the results of multiple marketing campaigns.  The analysis of the data shows that the marketing campaign was not very successful in getting customers to sign up for the long term deposit product.
+
+From a business objective, the task of this Machine Learning project is to determine which factors could lead to a higher success rate, for example,
+- How does loan products have a positive impact on customer success rate?, for example, do we concentrate on customers with Housing loan?
+- Are we going to have a better success rate with customers with “university degree”?
+- How does the contact method (i.e., cellular) affect whether the success rate for long term loan products?
 
 ## Data Understanding
 
@@ -82,14 +90,6 @@ Reviewing the plots where the customer signed up for the Bank Product/Marketing 
 - On Education, university degree folks said yes to the bank loan product
 - For Job, bank had the most success with folks in admin role which is very broad, followed by Technician, then blue-collar
 
-### Business Objective Definition
-
-This dataset was provided for a Portugese banking institution and is a collection of the results of multiple marketing campaigns.  The analysis of the data shows that the marketing campaign was not very successful in getting customers to sign up for the long term deposit product.
-
-From a business objective, the task of this Machine Learning project is to determine which factors could lead to a higher success rate, for example,
-- How does loan products have a positive impact on customer success rate?, for example, do we concentrate on customers with Housing loan?
-- Are we going to have a better success rate with customers with “university degree”?
-- How does the contact method (i.e., cellular) affect whether the success rate for long term loan products?
 
 ## Data Preparation
 
