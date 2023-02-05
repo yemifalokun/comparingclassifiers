@@ -127,10 +127,10 @@ In this section, we will compare the performance of the Logistic Regression mode
 
 | Model Name        	| Train Time (s)                      | Train Accuracy                | Test Accuracy 	                | 
 |-------------------	|:---------------------------	|:---------------------:	|:----------------------:	|
-| Logistic Regression   | 0.322                    | 0.8872047448926502                  | 0.8875940762320952                 |  
-| KNN   | 55.8                   | 0.8846033783080711                 | 	0.8807963097839281                  |  
-| Decision Tree	   | 0.376                      | 0.8911935069890049                  | 0.884761673545359                 |  
-| SVM   | 24.4                     | 0.8873087995560335                 | 0.8875131504410455                 |  
+| Logistic Regression   | 0.322                         | 0.8872047448926502        | 0.8875940762320952                 |  
+| KNN                   | 55.8                          | 0.8846033783080711        | 0.8807963097839281                  |  
+| Decision Tree	        | 0.376                         | 0.8911935069890049        | 0.884761673545359                 |  
+| SVM                   | 24.4                          | 0.8873087995560335        | 0.8875131504410455                 |  
 |                       |                               |                           |                        	| 
 
 Looking at the results from the model comparison, Logistic Regression had the best numbers across the three metrics with lowest train time in seconds, highest training and testing accuracy scores.
@@ -141,13 +141,13 @@ This dataset is so imbalanced when you look at the Exploratory section of this N
 
 Using Grid Search to create models with the different parameters and evaluate the performance metrics
 
-| Model Name        	| Train Time (s)                      | Best Parameters               | Best Score 	                | 
-|-------------------	|:---------------------------	|:---------------------:	|:----------------------:	|
-| Logistic Regression   | 64                   | C:0.001, penalty:l2, solver: liblinear	                 | 0.8872394393842521                |  
-| KNN   | 302                 | n_neighbors: 17                | 	0.8855397848500199                 |  
-| Decision Tree   | 15.7                     | criterion: entropy, max_depth: 1, model__min_samples_leaf: 1                 | 0.8872394393842521                  |  
-| Logistic Regression   | 490                     | C: 0.1, kernel: rbf                  | 0.8872394393842521                 |  
-|                       |                               |                           |                        	| 
+| Model Name        	| Train Time (s)                      | Best Parameters                                          | Best Score 	                | 
+|-------------------	|:---------------------------	|:-------------------------------------------------:	         |:----------------------:	|
+| Logistic Regression   | 64                            | C:0.001, penalty:l2, solver: liblinear	                     | 0.8872394393842521                |  
+| KNN                   | 302                           | n_neighbors: 17                                                | 0.8855397848500199                 |  
+| Decision Tree         | 15.7                          | criterion: entropy, max_depth: 1, model__min_samples_leaf: 1   | 0.8872394393842521                  |  
+| Logistic Regression   | 490                           | C: 0.1, kernel: rbf                                            | 0.8872394393842521                 |  
+|                       |                               |                                                                |                        	| 
 
 For SVM, I tried a number of paramaters which took a long time (i.e., some running over 2 hours etc) and did not finish because I had to abort the processing. Finally got the following parameter to work which took over 8 minutes as shown above.
 
