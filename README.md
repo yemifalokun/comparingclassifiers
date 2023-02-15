@@ -137,7 +137,7 @@ Looking at the results from the model comparison, Logistic Regression had the be
 
 ## Improving the Model
 
-This dataset is so imbalanced when you look at the Exploratory section of this Notebook, using the features to see if we can get a higher percentage of successful sign up for long term product did not provide a positive result with the exception of customer that have housing loan with a number of 52.4%
+This dataset is so imbalanced when you look at the Exploratory section of this Notebook. Using the features to see if we can get a higher percentage of successful sign up for long term product did not provide a positive result with the exception of customer that have housing loan with a number of 52.4%
 
 Using Grid Search to create models with the different parameters and evaluate the performance metrics
 
@@ -146,7 +146,7 @@ Using Grid Search to create models with the different parameters and evaluate th
 | Logistic Regression   | 64                            | C:0.001, penalty:l2, solver: liblinear	                     | 0.8872394393842521                |  
 | KNN                   | 302                           | n_neighbors: 17                                                | 0.8855397848500199                 |  
 | Decision Tree         | 15.7                          | criterion: entropy, max_depth: 1, model__min_samples_leaf: 1   | 0.8872394393842521                  |  
-| Logistic Regression   | 490                           | C: 0.1, kernel: rbf                                            | 0.8872394393842521                 |  
+| SVM                   | 490                           | C: 0.1, kernel: rbf                                            | 0.8872394393842521                 |  
 |                       |                               |                                                                |                        	| 
 
 For SVM, I tried a number of paramaters which took a long time (i.e., some running over 2 hours etc) and did not finish because I had to abort the processing. Finally got the following parameter to work which took over 8 minutes as shown above.
