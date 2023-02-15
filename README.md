@@ -137,7 +137,7 @@ Looking at the results from the model comparison, Logistic Regression had the be
 
 ## Improving the Model
 
-This dataset is so imbalanced when you look at the Exploratory section of this Notebook. Using the features to see if we can get a higher percentage of successful sign up for long term product did not provide a positive result with the exception of customer that have housing loan with a number of 52.4%
+This dataset is so imbalanced when you look at the Exploratory section of this Notebook. Using these features to see if we can get a higher percentage of successful sign up for long term product did not provide a positive result with the exception of customer that have housing loan with a number of 52.4%
 
 Using Grid Search to create models with the different parameters and evaluate the performance metrics
 
